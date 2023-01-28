@@ -1,6 +1,7 @@
 
 body {
-    background: linear-gradient(90deg, #C7C5F4, #776BCC);	
+    background: linear-gradient(90deg, #10f12e, #fdfdfe);	
+    background-repeat: no-repeat;   
 }
 
 /* barra de navegacion */
@@ -21,7 +22,7 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgb(6, 250, 38);
     color: black;
 }
 /* barra izquierda*/
@@ -51,7 +52,18 @@ body {
 }
 
 .contenedor h1 {
-    padding-bottom: 20px;
+    font-size: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.datos  {
+    color: rgb(4, 250, 90);
+}
+
+.linea {
+    border: 1px solid;
+    color: rgb(32, 4, 247);
 }
 
 .trabajo {
@@ -79,7 +91,7 @@ body {
     display: inline-flex;
     text-align: center;
     cursor: pointer;
-    background-color: #776BCC;
+    background-color: #03fb243e;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     float: right;
 }
@@ -108,6 +120,8 @@ body {
     }
     .foto img {
         margin-left: 0px;
+        margin-right: auto;
+        width: 190px;
     }
     .main {
         margin-left: 190px; /* igual width*/
